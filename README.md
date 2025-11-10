@@ -16,6 +16,7 @@ Aplicación de consola desarrollada en **Java 17+** que permite convertir valore
 
 ## 🧩 Estructura del proyecto
 
+```text
 src/
  ├── principal/
  │   └── Principal.java
