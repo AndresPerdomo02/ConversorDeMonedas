@@ -15,7 +15,7 @@ Aplicación de consola desarrollada en **Java 17+** que permite convertir valore
 ---
 
 ## 🧩 Estructura del proyecto
-
+```text
 src/
  ├── principal/
  │   └── Principal.java
@@ -27,7 +27,7 @@ src/
  └── calculos/
      ├── Conversor.java
      └── OperacionesConversor.java
-
+```
 ---
 
 ## ⚙️ Tecnologías utilizadas
@@ -71,7 +71,7 @@ src/
 
 👨‍💻 Autor
 
-Carlos Andrés Perdomo
-📍 Colombia
-💼 Proyecto educativo de práctica con Java
+- [Carlos Andrés Perdomo](https://github.com/AndresPerdomo02)
+- 📍 Colombia
+- 💼 Proyecto educativo de práctica con Java
 
