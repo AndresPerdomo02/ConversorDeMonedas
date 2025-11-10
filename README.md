@@ -17,11 +17,16 @@ Aplicación de consola desarrollada en **Java 17+** que permite convertir valore
 ## 🧩 Estructura del proyecto
 
 src/
-├── Principal.java → Punto de entrada de la aplicación
-├── ConsultaMonedas.java → Clase encargada de consumir la API
-├── Moneda.java → Record que modela la respuesta JSON
-├── Conversor.java → Contiene los métodos de cálculo
-└── OperacionesConversor.java → Centraliza la lógica de conversión
+ ├── principal/
+ │   └── Principal.java
+ │
+ ├── modelos/
+ │   ├── Moneda.java
+ │   └── ConsultaMonedas.java
+ │
+ └── calculos/
+     ├── Conversor.java
+     └── OperacionesConversor.java
 
 ---
 
@@ -39,6 +44,7 @@ src/
 1. El programa hace una petición HTTP a la API de ExchangeRate usando una **moneda base (USD)**.  
 2. Obtiene un JSON con las tasas de conversión actualizadas.  
 3. Muestra un menú con distintas opciones de conversión:
+   
   Sea bienvenido/a al Conversor de Moneda
 
   1) Dólar => Peso argentino
